@@ -1,0 +1,55 @@
+1. Why you should Learn JavaScript Today
+
+JS - Invented by Brendan Eich in 1995 
+Js was used only for client side scrippting to enhance websites in client end
+But recently Js is used even for server side and also to create desktop apps,
+    andriod apps and ios also acts ike dynamic programming lang
+Ex : Node.js used for dynamic programming in server sidevweb development - framework developed using JS
+Ex : React js for frontend developed by FB used to creat both web and mobile apps
+Ex : React Native used for mobile apps 
+Ex : Angular Js - front end MVC(model, view, controller) - developed by google - now open src - 
+     used to created dynamic web apps
+Ex : Electron Js  - helps to build cross platform desktop apps for standlone systemss like paint, text editor, music player
+EX : React VR - you can create VR apps
+Ex : TensorFlow.js - open source machine learning platfrom - it's a lib that can implememnt ML applications
+Js is also used for desktop app which is not web app but then standalone s/w
+
+2. Document Object model
+
+3 essestial parts to web development
+    html - adds structure to web page - uses tags <html> <head>
+            not general purpose programming lang as can't use if-else, inheritance or OOPS concept
+    css  - adds styles to webpages - uses colors,bordeer,margin - enhances thw webpage
+            uses ids, classes. can be given in 3 different ways - internal, inline, external
+    js   -  adds programming to web page and functionality - 
+            client side validation - effects and events - 
+            Ex : when you click a button it opens or event is passed
+
+How does JS understand html ?
+    When you load a html Document into the browser,
+    another representation corresponding to that one  is created but in 
+    a different view ---> JS view
+    all the tags are represented as objects in DOM
+    HTML FOLLOWS a hirearchy
+    <html>
+        <head>
+            <title>
+            </title>
+        </head>
+
+        <body>
+        </body>
+    </html>
+
+    even in DOM, a hirearchy is created
+    DOM is needed as JS can easily interpret that rather than html tags
+    Ex : if you want to change the text in title using js dom, you can easily change the attribute
+    JS looks at DOM in terms of Node.
+    element node  - <html> <head> <title>
+    attribute node - id 
+    text node  - "mytitle" (the content inisde the element)
+
+3. First Hello World
+
+//you don't need any servers as the latest browers(chrome or firefox) comes with a build injs 
+engine or embedded in them 

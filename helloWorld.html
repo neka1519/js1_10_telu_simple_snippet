@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> hello world</title>
+        <!--
+        <script type "text/javascript">
+        document.write("<h1>Hello world</h1>");
+        </script>
+        -->
+        <script type = "text/javascript">
+            var num = 29;
+            var name = "neks"   //js is not strictly typed
+            name = 1512;
+           
+           var a = 15;     //follows right-left
+           var b = 20;
+           var c = a + b;  // + follows left ro right
+           document.write(c);
+
+           var plus = a + b + "neka" + a+b
+           document.write(plus);
+
+           var result = a + b * 2 // ----> works with bordmas
+            //print 35neka1520
+           // a + b ---> follows lr both are int 15+20 = 35
+           //35+"neka"  -->35neka now changed to string
+           //so a + b is string concatinated
+           
+           
+           
+           
+            alert(name);  //automatically name changes from int to string
+        </script>
+        <script src = "external.js" type "text/javascript"> </script>
+        <script src = "variables.js" type "text/javascript"> </script>
+    </head>
+    <body>
+    </body>
+</html>
+
+<!--
+bolierplate or barebone 
+two ways to add js : embed js in html (or) external js file
+
+you can create script pretty much anywhere if its lengthy then place at the end 
+because it takes lot of time to load js if its placed at the top as it goes line by line
+ -->
