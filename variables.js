@@ -6,9 +6,13 @@ we replace that with the variable that we create
 
 /*
 Data types :
-primitive : numbers, staring, boolean
+primitive : numbers, string, boolean
 trivial(still primitive) : null undefined
-composite types : objects array
+composite types : objects, array
+symbols :It is a new data type introduced in the ES6 version of javascript. 
+It is used to store an anonymous and unique value.
+
+var symbol1 = Symbol('symbol');
 */
 
 //JS is loosely typed programming lang and it's dynamically typed scripting language
