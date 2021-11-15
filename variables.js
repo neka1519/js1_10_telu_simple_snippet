@@ -20,3 +20,6 @@ var name = "alagi"  // depeneding upon the value the memory gets allocated ---> 
 //don't use keyword
 num = "dude"; //now initially num was int but now the datatype has changed to string
 alert(num);
+
+var name  = "your name" ;
+//"your name" is called a string literal. A string literal, or string, is a series of zero or more characters enclosed in single or double quotes
